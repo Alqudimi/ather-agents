@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: أسئلة التثبيت والاستعمال
+    url: https://github.com/Alqudimi/ather-agents/blob/main/docs/FAQ.md
+    about: راجع الأسئلة الشائعة واستكشاف الأخطاء قبل فتح بلاغ.
+  - name: الإبلاغ الأمني الخاص
+    url: https://github.com/Alqudimi/ather-agents/security/advisories/new
+    about: لا تنشر تفاصيل ثغرة أمنية في Issue عام؛ استخدم بلاغاً أمنياً خاصاً إن كانت الميزة متاحة.

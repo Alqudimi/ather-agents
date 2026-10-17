@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="ar" dir="rtl" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0B0D15">
+  <meta name="description" content="Ather Agents — حزمة 621 وكيلاً لـ OpenCode v2، مع مثبت آمن وتوثيق عربي وإنجليزي.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ather Agents — فريقك البرمجي لـ OpenCode v2">
+  <meta property="og:description" content="نسّق فرق الوكلاء المتخصصة في OpenCode v2. تثبيت آمن بأمر واحد.">
+  <meta property="og:image" content="https://alqudimi.github.io/ather-agents/assets/brand/ather-agents-logo.png">
+  <link rel="canonical" href="https://alqudimi.github.io/ather-agents/">
+  <link rel="icon" type="image/png" href="assets/brand/ather-agents-logo.png">
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <title>Ather Agents — فريقك البرمجي لـ OpenCode v2</title>
+  <script>
+    try { document.documentElement.dataset.theme = localStorage.getItem('ather-theme') || 'dark'; } catch (_) {}
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js" crossorigin="anonymous"></script>
+  <script defer src="assets/js/site.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-ar="انتقل إلى المحتوى" data-en="Skip to content">انتقل إلى المحتوى</a>
+  <header class="site-header">
+    <div class="header-inner page-wrap">
+      <a class="brand" href="#top" aria-label="Ather Agents">
+        <img src="assets/brand/ather-agents-logo.png" alt="شعار Ather Agents" width="48" height="48" fetchpriority="high">
+        <span class="brand-name">Ather <b>Agents</b></span>
+      </a>
+      <nav class="main-nav" aria-label="التنقل الرئيسي">
+        <a href="#how" data-ar="كيف يعمل" data-en="How it works">كيف يعمل</a>
+        <a href="#agents" data-ar="الوكلاء" data-en="Agents">الوكلاء</a>
+        <a href="#install" data-ar="التثبيت" data-en="Install">التثبيت</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button" type="button" data-language-toggle aria-label="Switch to English" data-ar-label="التبديل إلى الإنجليزية" data-en-label="التبديل إلى العربية">EN</button>
+        <button class="icon-button theme-button" type="button" data-theme-toggle aria-label="تبديل المظهر" data-ar-label="تبديل المظهر" data-en-label="Toggle appearance"><span aria-hidden="true" data-theme-glyph>◐</span><span class="theme-label" data-ar="المظهر" data-en="Theme">المظهر</span></button>
+        <a class="header-cta" href="https://github.com/Alqudimi/ather-agents" target="_blank" rel="noopener noreferrer" data-ar="المستودع" data-en="Repository">المستودع</a>
+      </div>
+      <button class="menu-toggle icon-button" type="button" aria-expanded="false" aria-controls="mobile-menu" data-menu-toggle data-ar-label="فتح القائمة" data-en-label="Open menu">☰</button>
+    </div>
+    <nav class="mobile-nav page-wrap" id="mobile-menu" hidden aria-label="التنقل على الهاتف">
+      <a href="#how" data-ar="كيف يعمل" data-en="How it works">كيف يعمل</a>
+      <a href="#agents" data-ar="الوكلاء" data-en="Agents">الوكلاء</a>
+      <a href="#install" data-ar="التثبيت" data-en="Install">التثبيت</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero page-wrap" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span><span data-ar="حزمة فرق الوكلاء لـ OpenCode v2" data-en="Agent-team pack for OpenCode v2">حزمة فرق الوكلاء لـ OpenCode v2</span></p>
+        <h1 id="hero-title"><span data-ar="منسّق واحد." data-en="One orchestrator.">منسّق واحد.</span><br><em data-ar="فريق كامل." data-en="A whole team.">فريق كامل.</em></h1>
+        <p class="hero-description" data-ar="621 وكيلاً متخصصاً، يقودهم منسّق يوجّه كل مهمة إلى الفريق المناسب. ثبّت الحزمة في مشروعك بأمر واحد — مع بقاء OpenCode تحت سيطرتك." data-en="621 specialist agents, coordinated by one orchestrator that routes each task to the right team. Install the pack in your project with one command — while OpenCode stays yours.">621 وكيلاً متخصصاً، يقودهم منسّق يوجّه كل مهمة إلى الفريق المناسب. ثبّت الحزمة في مشروعك بأمر واحد — مع بقاء OpenCode تحت سيطرتك.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#install"><span data-ar="ابدأ التثبيت" data-en="Get started">ابدأ التثبيت</span><span aria-hidden="true" class="arrow">↗</span></a>
+          <a class="button button-quiet" href="#how"><span data-ar="اكتشف طريقة العمل" data-en="Explore the workflow">اكتشف طريقة العمل</span><span aria-hidden="true" class="arrow">↓</span></a>
+        </div>
+        <p class="hero-note"><span class="note-rule" aria-hidden="true"></span><span data-ar="يتطلب OpenCode v2 مثبتاً مسبقاً — لا يثبته هذا المشروع." data-en="OpenCode v2 must already be installed — this project never installs it.">يتطلب OpenCode v2 مثبتاً مسبقاً — لا يثبته هذا المشروع.</span></p>
+      </div>
+      <div class="hero-art reveal" aria-label="شعار المشروع" data-ar-label="شعار المشروع" data-en-label="Project logo">
+        <div class="logo-frame"><img src="assets/brand/ather-agents-logo.png" alt="الشعار المعدني الأصلي لـ Ather Agents" width="1254" height="1254"></div>
+        <div class="art-caption"><span class="caption-line" aria-hidden="true"></span><span data-ar="صُمم للعمل كفريق" data-en="Built to work as a team">صُمم للعمل كفريق</span><span class="caption-accent" aria-hidden="true">/</span><span data-ar="لا كقائمة أدوات" data-en="not a list of tools">لا كقائمة أدوات</span></div>
+        <span class="art-index" aria-hidden="true">AA / 01</span>
+      </div>
+    </section>
+
+    <section class="signal-band" aria-label="إحصاءات الحزمة">
+      <div class="signal-inner page-wrap">
+        <div class="signal-item"><strong>621</strong><span data-ar="ملف وكيل" data-en="agent profiles">ملف وكيل</span></div>
+        <div class="signal-divider" aria-hidden="true"></div>
+        <div class="signal-item"><strong>14</strong><span data-ar="قائداً للمجالات" data-en="team leads">قائداً للمجالات</span></div>
+        <div class="signal-divider" aria-hidden="true"></div>
+        <div class="signal-item"><strong>v2</strong><span data-ar="متطلب OpenCode" data-en="OpenCode requirement">متطلب OpenCode</span></div>
+        <div class="signal-aside" data-ar="محتويات مثبتة بالبصمات" data-en="Manifest-verified files">محتويات مثبتة بالبصمات</div>
+      </div>
+    </section>
+
+    <section class="section page-wrap" id="how" aria-labelledby="how-title">
+      <div class="section-heading reveal">
+        <p class="section-kicker" data-ar="01 / طريقة العمل" data-en="01 / The workflow">01 / طريقة العمل</p>
+        <h2 id="how-title" data-ar="من الطلب إلى التنفيذ، بلا فوضى." data-en="From request to execution, without the noise.">من الطلب إلى التنفيذ، بلا فوضى.</h2>
+        <p data-ar="المهام متعددة التخصصات لا تحتاج أن تختار كل أداة يدوياً. المنسّق يحدد المسار، وقائد المجال يوزع العمل على الاختصاصي المناسب." data-en="You don't have to choose every specialist by hand. The orchestrator picks a path, then the team lead routes the work to the right expert.">المهام متعددة التخصصات لا تحتاج أن تختار كل أداة يدوياً. المنسّق يحدد المسار، وقائد المجال يوزع العمل على الاختصاصي المناسب.</p>
+      </div>
+      <div class="workflow-panel reveal">
+        <div class="workflow-top"><span class="mono-label" data-ar="تسلسل التفويض" data-en="DELEGATION FLOW">تسلسل التفويض</span><span class="flow-counter" data-flow-counter>01 — 03</span></div>
+        <div class="flow-grid" data-flow-list>
+          <article class="flow-step is-active" data-step="0" aria-current="step"><span class="step-number">01</span><p class="step-role" data-ar="التوجيه" data-en="ROUTE">التوجيه</p><h3>orchestrator</h3><p data-ar="يفهم الهدف ويختار فرق العمل اللازمة." data-en="Understands the goal and selects the teams needed.">يفهم الهدف ويختار فرق العمل اللازمة.</p></article>
+          <article class="flow-step" data-step="1"><span class="step-number">02</span><p class="step-role" data-ar="التنسيق" data-en="COORDINATE">التنسيق</p><h3>team lead</h3><p data-ar="يقسّم المهمة ويختار الاختصاصيين." data-en="Breaks down the task and assigns specialists.">يقسّم المهمة ويختار الاختصاصيين.</p></article>
+          <article class="flow-step" data-step="2"><span class="step-number">03</span><p class="step-role" data-ar="التنفيذ" data-en="EXECUTE">التنفيذ</p><h3>specialist</h3><p data-ar="ينجز الجزء المحدد ويرجع النتيجة للفريق." data-en="Completes a focused task and reports back.">ينجز الجزء المحدد ويرجع النتيجة للفريق.</p></article>
+        </div>
+        <div class="workflow-bottom"><span data-ar="استخدم الأسهم لتصفح مراحل الفريق" data-en="Use the arrows to explore each stage">استخدم الأسهم لتصفح مراحل الفريق</span><div class="flow-controls"><button type="button" class="flow-control" data-flow-prev aria-label="المرحلة السابقة">←</button><button type="button" class="flow-control" data-flow-next aria-label="المرحلة التالية">→</button></div></div>
+      </div>
+      <p class="section-footnote" data-ar="للتفويض المتداخل، اضبط experimental.subagent_depth على 2. يتطلب ذلك OpenCode v2." data-en="For nested delegation, set experimental.subagent_depth to 2. OpenCode v2 is required.">للتفويض المتداخل، اضبط <code>experimental.subagent_depth</code> على <code>2</code>. يتطلب ذلك OpenCode v2.</p>
+    </section>
+
+    <section class="section section-agents page-wrap" id="agents" aria-labelledby="agents-title">
+      <div class="section-heading section-heading-row reveal">
+        <div><p class="section-kicker" data-ar="02 / مجالات التخصص" data-en="02 / Specialist domains">02 / مجالات التخصص</p><h2 id="agents-title" data-ar="خبرة منظّمة. لا ضجيج." data-en="Structured expertise. No clutter.">خبرة منظّمة. لا ضجيج.</h2></div>
+        <p data-ar="استكشف المجالات الأساسية. أسماء الوكلاء الكاملة وبصماتها موجودة في بيان الحزمة." data-en="Explore the core domains. Full agent names and checksums live in the package manifest.">استكشف المجالات الأساسية. أسماء الوكلاء الكاملة وبصماتها موجودة في بيان الحزمة.</p>
+      </div>
+      <div class="domain-list reveal">
+        <a href="https://github.com/Alqudimi/ather-agents/tree/main/.opencode/agents/agent-systems" target="_blank" rel="noopener noreferrer"><span>01</span><b>Agent systems</b><span class="domain-arrow">↗</span></a>
+        <a href="https://github.com/Alqudimi/ather-agents/tree/main/.opencode/agents/ai-ml" target="_blank" rel="noopener noreferrer"><span>02</span><b>AI &amp; ML</b><span class="domain-arrow">↗</span></a>
+        <a href="https://github.com/Alqudimi/ather-agents/tree/main/.opencode/agents/architecture" target="_blank" rel="noopener noreferrer"><span>03</span><b>Architecture</b><span class="domain-arrow">↗</span></a>
+        <a href="https://github.com/Alqudimi/ather-agents/tree/main/.opencode/agents/backend" target="_blank" rel="noopener noreferrer"><span>04</span><b>Backend</b><span class="domain-arrow">↗</span></a>
+        <a href="https://github.com/Alqudimi/ather-agents/tree/main/.opencode/agents/data" target="_blank" rel="noopener noreferrer"><span>05</span><b>Data</b><span class="domain-arrow">↗</span></a>
+        <a href="https://github.com/Alqudimi/ather-agents/tree/main/.opencode/agents/documentation" target="_blank" rel="noopener noreferrer"><span>06</span><b>Documentation</b><span class="domain-arrow">↗</span></a>
+        <a href="https://github.com/Alqudimi/ather-agents/tree/main/.opencode/agents/frontend" target="_blank" rel="noopener noreferrer"><span>07</span><b>Frontend</b><span class="domain-arrow">↗</span></a>
+        <a href="https://github.com/Alqudimi/ather-agents/tree/main/.opencode/agents/languages" target="_blank" rel="noopener noreferrer"><span>08</span><b>Languages</b><span class="domain-arrow">↗</span></a>
+        <a href="https://github.com/Alqudimi/ather-agents/tree/main/.opencode/agents/performance" target="_blank" rel="noopener noreferrer"><span>09</span><b>Performance</b><span class="domain-arrow">↗</span></a>
+        <a href="https://github.com/Alqudimi/ather-agents/tree/main/.opencode/agents/platform" target="_blank" rel="noopener noreferrer"><span>10</span><b>Platform &amp; ops</b><span class="domain-arrow">↗</span></a>
+        <a href="https://github.com/Alqudimi/ather-agents/tree/main/.opencode/agents/product" target="_blank" rel="noopener noreferrer"><span>11</span><b>Product</b><span class="domain-arrow">↗</span></a>
+        <a href="https://github.com/Alqudimi/ather-agents/tree/main/.opencode/agents/quality" target="_blank" rel="noopener noreferrer"><span>12</span><b>Quality</b><span class="domain-arrow">↗</span></a>
+        <a href="https://github.com/Alqudimi/ather-agents/tree/main/.opencode/agents/security" target="_blank" rel="noopener noreferrer"><span>13</span><b>Security</b><span class="domain-arrow">↗</span></a>
+        <a href="https://github.com/Alqudimi/ather-agents/tree/main/.opencode/agents/specialized-domains" target="_blank" rel="noopener noreferrer"><span>14</span><b>Specialized domains</b><span class="domain-arrow">↗</span></a>
+      </div>
+      <div class="section-link-wrap"><a class="text-link" href="https://github.com/Alqudimi/ather-agents/blob/main/AGENT-MANIFEST.csv" target="_blank" rel="noopener noreferrer"><span data-ar="افتح بيان الوكلاء" data-en="Open the agent manifest">افتح بيان الوكلاء</span><span aria-hidden="true">↗</span></a></div>
+    </section>
+
+    <section class="install-section" id="install" aria-labelledby="install-title">
+      <div class="install-inner page-wrap">
+        <div class="install-copy reveal">
+          <p class="section-kicker" data-ar="03 / التثبيت" data-en="03 / Installation">03 / التثبيت</p>
+          <h2 id="install-title" data-ar="إلى مشروعك. بأمر واحد." data-en="Into your project. One command.">إلى مشروعك. بأمر واحد.</h2>
+          <p data-ar="من جذر مشروعك، ثبّت ملفات الوكلاء. يتوقف المثبت إذا لم يجد OpenCode v2؛ لا ينزّل CLI ولا يستبدله." data-en="From your project root, install the agent files. The installer stops if OpenCode v2 is missing; it never downloads or replaces the CLI.">من جذر مشروعك، ثبّت ملفات الوكلاء. يتوقف المثبت إذا لم يجد OpenCode v2؛ لا ينزّل CLI ولا يستبدله.</p>
+          <div class="install-requirement"><span class="requirement-marker" aria-hidden="true">!</span><span data-ar="ثبّت OpenCode v2 بنفسك أولاً." data-en="Install OpenCode v2 yourself first.">ثبّت OpenCode v2 بنفسك أولاً.</span></div>
+          <a class="text-link" href="https://github.com/Alqudimi/ather-agents/blob/main/docs/INSTALLATION.md" target="_blank" rel="noopener noreferrer"><span data-ar="اقرأ دليل التثبيت الكامل" data-en="Read the full installation guide">اقرأ دليل التثبيت الكامل</span><span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="command-card reveal">
+          <div class="terminal-bar"><span class="terminal-title" data-ar="تثبيت الحزمة" data-en="Install the pack">تثبيت الحزمة</span><span class="terminal-dots" aria-hidden="true"><i></i><i></i><i></i></span></div>
+          <div class="command-content"><span class="prompt-symbol" aria-hidden="true">$</span><code data-install-command>curl -fsSL https://raw.githubusercontent.com/Alqudimi/ather-agents/main/install.sh | bash -s -- install</code></div>
+          <button class="copy-button" type="button" data-copy-install><span data-ar="نسخ الأمر" data-en="Copy command">نسخ الأمر</span><span aria-hidden="true">⧉</span></button>
+          <p class="copy-status" data-copy-status aria-live="polite"></p>
+          <div class="terminal-footer"><span class="terminal-status-dot" aria-hidden="true"></span><span data-ar="يحتفظ OpenCode بإعداداته ونسخته دون تغيير" data-en="OpenCode and its settings remain untouched">يحتفظ OpenCode بإعداداته ونسخته دون تغيير</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section assurance-section page-wrap" aria-labelledby="assurance-title">
+      <div class="section-heading reveal"><p class="section-kicker" data-ar="04 / مبدأ التثبيت" data-en="04 / Installer principles">04 / مبدأ التثبيت</p><h2 id="assurance-title" data-ar="واضح. قابل للتحقق. قابل للتراجع." data-en="Clear. Verifiable. Reversible.">واضح. قابل للتحقق. قابل للتراجع.</h2></div>
+      <div class="assurance-grid">
+        <article class="assurance-card reveal"><span class="card-index">A / 01</span><h3 data-ar="لا يثبت CLI" data-en="No CLI install">لا يثبت CLI</h3><p data-ar="يتحقق من نسخة v2 الموجودة مسبقاً ويرفض المتابعة عند غيابها." data-en="Checks the existing v2 CLI and refuses to continue if it is missing.">يتحقق من نسخة v2 الموجودة مسبقاً ويرفض المتابعة عند غيابها.</p></article>
+        <article class="assurance-card reveal"><span class="card-index">A / 02</span><h3 data-ar="تحقق بالبصمات" data-en="Manifest checks">تحقق بالبصمات</h3><p data-ar="يتحقق من ملفات الوكلاء بواسطة manifest وSHA-256." data-en="Verifies agent files against the manifest and SHA-256 checksums.">يتحقق من ملفات الوكلاء بواسطة manifest وSHA-256.</p></article>
+        <article class="assurance-card reveal"><span class="card-index">A / 03</span><h3 data-ar="إزالة محافظة" data-en="Careful uninstall">إزالة محافظة</h3><p data-ar="يعيد ما يمكن التحقق منه، ويحفظ ملفاتك المعدلة وOpenCode نفسه." data-en="Restores what can be verified and preserves changed files and OpenCode itself.">يعيد ما يمكن التحقق منه، ويحفظ ملفاتك المعدلة وOpenCode نفسه.</p></article>
+      </div>
+      <p class="fine-print" data-ar="راجع الكود ومحتويات الأرشيف قبل التنفيذ إذا كانت سياسة مؤسستك تتطلب ذلك. لا ترسل أسراراً إلى الوكلاء أو Issues عامة." data-en="Review the script and archive before running them if your organization requires it. Never share secrets with agents or public issues.">راجع الكود ومحتويات الأرشيف قبل التنفيذ إذا كانت سياسة مؤسستك تتطلب ذلك. لا ترسل أسراراً إلى الوكلاء أو Issues عامة.</p>
+    </section>
+
+    <section class="section faq-section page-wrap" id="faq" aria-labelledby="faq-title">
+      <div class="section-heading reveal"><p class="section-kicker" data-ar="05 / أسئلة شائعة" data-en="05 / FAQ">05 / أسئلة شائعة</p><h2 id="faq-title" data-ar="قبل أن تبدأ." data-en="Before you begin.">قبل أن تبدأ.</h2></div>
+      <div class="faq-list reveal">
+        <details><summary data-ar="هل يثبت هذا المشروع OpenCode؟" data-en="Does this project install OpenCode?">هل يثبت هذا المشروع OpenCode؟</summary><p data-ar="لا. تحتاج إلى OpenCode v2 مثبتاً مسبقاً. المثبت يرفض التثبيت والتحقق عند غياب النسخة المطلوبة ولا يثبت CLI." data-en="No. OpenCode v2 must already be installed. The installer refuses install and verification when it is missing; it does not install the CLI.">لا. تحتاج إلى OpenCode v2 مثبتاً مسبقاً. المثبت يرفض التثبيت والتحقق عند غياب النسخة المطلوبة ولا يثبت CLI.</p></details>
+        <details><summary data-ar="هل يمكنني إزالة الوكلاء دون إزالة OpenCode؟" data-en="Can I remove the agents without removing OpenCode?">هل يمكنني إزالة الوكلاء دون إزالة OpenCode؟</summary><p data-ar="نعم. أمر uninstall يزيل ملفات الحزمة التي لم تتغير وإعداد العمق الذي أضافه المثبت فقط. يبقى CLI كما هو." data-en="Yes. Uninstall removes only unchanged pack files and the depth setting managed by the installer. The CLI is left alone.">نعم. أمر uninstall يزيل ملفات الحزمة التي لم تتغير وإعداد العمق الذي أضافه المثبت فقط. يبقى CLI كما هو.</p></details>
+        <details><summary data-ar="كيف أبدأ؟" data-en="Where should I start?">كيف أبدأ؟</summary><p data-ar="استخدم orchestrator للمهمة متعددة المجالات. اختر قائداً أو اختصاصياً مباشرة عندما تعرف المجال. راجع دليل الاستخدام لمزيد من التفاصيل." data-en="Use orchestrator for multi-domain tasks. Choose a lead or specialist directly when you know the domain. See the usage guide for details.">استخدم <code>orchestrator</code> للمهمة متعددة المجالات. اختر قائداً أو اختصاصياً مباشرة عندما تعرف المجال. راجع دليل الاستخدام لمزيد من التفاصيل.</p></details>
+        <details><summary data-ar="أين التوثيق والويكي؟" data-en="Where are the docs and wiki?">أين التوثيق والويكي؟</summary><p data-ar="الأدلة داخل المستودع في docs/، وصفحات الويكي في تبويب Wiki بعد نشرها." data-en="Guides live in docs/ in the repository; wiki pages are in the Wiki tab after they are published.">الأدلة داخل المستودع في <code>docs/</code>، وصفحات الويكي في تبويب Wiki بعد نشرها.</p></details>
+      </div>
+    </section>
+
+    <section class="closing-band page-wrap reveal" aria-label="دعوة للاستكشاف">
+      <img src="assets/brand/ather-agents-logo.png" alt="" width="80" height="80" loading="lazy">
+      <div><p class="section-kicker" data-ar="استكشف المصدر" data-en="Explore the source">استكشف المصدر</p><h2 data-ar="ابنِ فريقك بالطريقة التي تناسبك." data-en="Build your team your way.">ابنِ فريقك بالطريقة التي تناسبك.</h2></div>
+      <a class="button button-primary" href="https://github.com/Alqudimi/ather-agents" target="_blank" rel="noopener noreferrer"><span data-ar="اذهب إلى GitHub" data-en="Open on GitHub">اذهب إلى GitHub</span><span aria-hidden="true" class="arrow">↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer page-wrap">
+    <a class="footer-brand" href="#top">Ather Agents <span>· OpenCode v2</span></a>
+    <div class="footer-links"><a href="https://github.com/Alqudimi/ather-agents/wiki" target="_blank" rel="noopener noreferrer" data-ar="الويكي" data-en="Wiki">الويكي</a><a href="https://github.com/Alqudimi/ather-agents/blob/main/SECURITY.md" target="_blank" rel="noopener noreferrer" data-ar="الأمان" data-en="Security">الأمان</a><a href="https://github.com/Alqudimi/ather-agents/blob/main/SUPPORT.md" target="_blank" rel="noopener noreferrer" data-ar="الدعم" data-en="Support">الدعم</a></div>
+    <p class="copyright">© <span data-year></span> Alqudimi</p>
+  </footer>
+</body>
+</html>

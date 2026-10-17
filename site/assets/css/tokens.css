@@ -1,0 +1,75 @@
+/* Tailwind CSS v4 theme values; usable as a design-token source. */
+@theme {
+  --color-primary-50: #F2F3FD;
+  --color-primary-100: #E5E7FA;
+  --color-primary-200: #C6CAF6;
+  --color-primary-300: #8E96F0;
+  --color-primary-400: #4F5DED;
+  --color-primary-500: #1223E3;
+  --color-primary-600: #0F1DBD;
+  --color-primary-700: #0C189C;
+  --color-primary-800: #0A1480;
+  --color-primary-900: #070F5F;
+  --color-primary-950: #04072F;
+  --color-brand-indigo: #5865F2;
+  --color-brand-orange: #F86830;
+  --color-background: var(--surface-page);
+  --color-foreground: var(--text-primary);
+  --color-card: var(--surface-card);
+  --color-card-foreground: var(--text-primary);
+  --color-popover: var(--surface-card);
+  --color-popover-foreground: var(--text-primary);
+  --color-primary: var(--brand-indigo);
+  --color-primary-foreground: #FFFFFF;
+  --color-secondary: var(--surface-subtle);
+  --color-secondary-foreground: var(--text-primary);
+  --color-muted: var(--surface-subtle);
+  --color-muted-foreground: var(--text-muted);
+  --color-accent: var(--brand-orange);
+  --color-accent-foreground: #14151A;
+  --color-destructive: #B42318;
+  --color-destructive-foreground: #FFFFFF;
+  --color-border: var(--border-default);
+  --color-input: var(--border-default);
+  --color-ring: var(--brand-indigo);
+  --radius: 0.75rem;
+}
+
+:root,
+:root[data-theme="light"] {
+  color-scheme: light;
+  --brand-indigo: #5865F2;
+  --brand-orange: #F86830;
+  --surface-page: #F7F8FC;
+  --surface-card: #FFFFFF;
+  --surface-subtle: #F2F3FD;
+  --surface-contrast: #FFFFFF;
+  --text-primary: #17192A;
+  --text-muted: #50546B;
+  --text-soft: #656A80;
+  --text-link: #4F5DED;
+  --text-accent: #AF4115;
+  --border-default: #81879B;
+  --code-background: #101321;
+  --code-foreground: #F6F7FB;
+  --shadow-soft: 0 18px 54px rgb(23 25 42 / 8%);
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --brand-indigo: #5865F2;
+  --brand-orange: #F86830;
+  --surface-page: #0B0D15;
+  --surface-card: #121622;
+  --surface-subtle: #191E2B;
+  --surface-contrast: #08090E;
+  --text-primary: #F4F5FA;
+  --text-muted: #C3C6D3;
+  --text-soft: #A3A8BB;
+  --text-link: #B8C0FF;
+  --text-accent: #FF8A5B;
+  --border-default: #596176;
+  --code-background: #08090E;
+  --code-foreground: #F6F7FB;
+  --shadow-soft: 0 20px 64px rgb(0 0 0 / 35%);
+}

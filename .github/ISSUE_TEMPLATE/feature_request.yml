@@ -1,0 +1,37 @@
+name: اقتراح ميزة
+description: اقتراح تحسين للوكلاء أو المثبت أو التوثيق
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: المشكلة أو الحاجة
+      description: ما حالة الاستخدام التي لا تغطيها الحزمة الحالية؟
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: الحل المقترح
+      description: صف السلوك أو المخرج المطلوب.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: البدائل التي فكرت بها
+  - type: textarea
+    id: impact
+    attributes:
+      label: الأثر والتوافق
+      description: هل يؤثر على OpenCode v2 أو التوافق أو الأمان أو المثبت؟
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: التحقق
+      options:
+        - label: بحثت في Issues وقرأت التوثيق الحالي.
+          required: true
+        - label: لا أطلب من السكربت تثبيت OpenCode أو تغيير ملفات المستخدم دون إذن.
+          required: true

@@ -1,0 +1,63 @@
+name: الإبلاغ عن خطأ
+description: الإبلاغ عن مشكلة قابلة لإعادة الإنتاج في الملفات أو المثبت
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        لا تستخدم هذا النموذج للإبلاغ عن ثغرات أمنية. راجع SECURITY.md وأزل أي أسرار أو بيانات خاصة.
+  - type: textarea
+    id: summary
+    attributes:
+      label: وصف المشكلة
+      description: ما الذي حدث؟
+      placeholder: وصف واضح ومختصر
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: خطوات إعادة الإنتاج
+      description: اكتب الخطوات والأمر الذي شغلته، من دون مفاتيح أو بيانات حساسة.
+      placeholder: |
+        1. اذهب إلى ...
+        2. نفّذ ...
+        3. تظهر المشكلة ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: النتيجة المتوقعة والفعلية
+    validations:
+      required: true
+  - type: input
+    id: opencode
+    attributes:
+      label: إصدار OpenCode
+      placeholder: "مثال: ناتج opencode --version"
+  - type: input
+    id: python
+    attributes:
+      label: إصدار Python
+      placeholder: ناتج python3 --version
+  - type: input
+    id: os
+    attributes:
+      label: نظام التشغيل وإصداره
+  - type: textarea
+    id: logs
+    attributes:
+      label: سجل مختصر
+      description: أزل المسارات الخاصة والمعرفات والبيانات السرية قبل الإرسال.
+      render: text
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: التحقق
+      options:
+        - label: قرأت دليل التثبيت والأسئلة الشائعة.
+          required: true
+        - label: لم أضمّن أي مفتاح أو سر أو بيانات شخصية.
+          required: true

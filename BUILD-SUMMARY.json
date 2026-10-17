@@ -1,0 +1,42 @@
+{
+  "agent_files": 621,
+  "active_agents": 620,
+  "subagent_files": 606,
+  "enabled_subagents": 605,
+  "disabled_agents": 1,
+  "team_leads_mode_all": 14,
+  "global_primary_orchestrators": 1,
+  "groups": 14,
+  "quarantined_incomplete": 7,
+  "counts": {
+    "ai-ml": 99,
+    "quality": 91,
+    "frontend": 53,
+    "security": 50,
+    "agent-systems": 40,
+    "specialized-domains": 31,
+    "platform": 46,
+    "architecture": 21,
+    "documentation": 21,
+    "backend": 13,
+    "performance": 51,
+    "data": 59,
+    "product": 14,
+    "languages": 31,
+    "global": 1
+  },
+  "legacy_frontmatter_keys_seen_in_source": {
+    "temperature": 595,
+    "permission": 464,
+    "tools": 134,
+    "id": 16,
+    "name": 30,
+    "category": 16,
+    "type": 16,
+    "version": 16,
+    "author": 16,
+    "tags": 15,
+    "max_steps": 43,
+    "dependencies": 3
+  }
+}
